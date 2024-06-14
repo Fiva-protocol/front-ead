@@ -670,6 +670,7 @@
     justify-content: flex-start;
     overflow-y: scroll;
     overflow-x: hidden;
+    /* overflow: scroll; */
     /* padding-bottom: 400px; */
     
 
