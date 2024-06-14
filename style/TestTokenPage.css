@@ -1,0 +1,185 @@
+
+  .header3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 0 0;
+  }
+  .layout5,
+  .wallet-address {
+    font-family: var(--body-3);
+    font-weight: 600;
+  }
+  .wallet-address {
+    position: relative;
+    font-size: var(--body-3-size);
+    line-height: 22.5px;
+    color: var(--snow-white);
+    text-align: center;
+  }
+  .layout5 {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: var(--purple-pink-gradient);
+    align-self: stretch;
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-5xs);
+    box-sizing: border-box;
+    font-size: var(--caption-1-size);
+    color: var(--grey);
+    min-width: 207px;
+  }
+  .input-field {
+    border-radius: var(--br-5xs);
+    border: 1px solid var(--dusty-grey);
+    justify-content: center;
+    padding: var(--padding-smi) 0;
+  }
+  .input-field,
+  .input-field-android,
+  .input7 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .input-field-android {
+    border-radius: var(--br-xs);
+    justify-content: center;
+    min-height: 48px;
+  }
+  .input7 {
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-base);
+    gap: var(--gap-9xs);
+  }
+  .amount,
+  .layout6 {
+    font-family: var(--body-3);
+    font-weight: 600;
+  }
+  .amount {
+    position: relative;
+    font-size: var(--body-3-size);
+    line-height: 22.5px;
+    color: var(--snow-white);
+    text-align: left;
+  }
+  .layout6 {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: var(--purple-pink-gradient);
+    align-self: stretch;
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-5xs);
+    box-sizing: border-box;
+    font-size: var(--caption-1-size);
+    color: var(--grey);
+    min-width: 207px;
+  }
+  .input-field-android1,
+  .input-field1 {
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .input-field1 {
+    align-self: stretch;
+    border-radius: var(--br-5xs);
+    border: 1px solid var(--dusty-grey);
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-smi) 0;
+  }
+  .input-field-android1 {
+    border-radius: var(--br-xs);
+    min-height: 48px;
+  }
+  .input-field-android1,
+  .input5,
+  .input6,
+  .input8 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+  }
+  .input8 {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .input5,
+  .input6 {
+    align-items: center;
+    justify-content: center;
+  }
+  .input6 {
+    gap: var(--gap-5xs);
+  }
+  .input5 {
+    border-radius: var(--br-5xl);
+    padding: var(--padding-xs) 0;
+  }
+  .label6 {
+    position: relative;
+    font-size: var(--body-3-size);
+    line-height: 22.5px;
+    font-weight: 600;
+    font-family: var(--body-3);
+    color: var(--snow-white);
+    text-align: left;
+  }
+  .button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-4xs) var(--padding-xl);
+    background-color: var(--purple-pink-gradient);
+    align-self: stretch;
+    border-radius: var(--br-xs);
+    background: linear-gradient(213.53deg, #6161d9, #9d61d9, #9d61d9);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+  }
+  .content3 {
+    margin: 0;
+    align-items: flex-start;
+    gap: var(--gap-base);
+  }
+  .content2,
+  .content3,
+  .status-bar-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .content2 {
+    align-items: center;
+    padding: 0 var(--padding-5xl);
+    gap: var(--gap-13xl);
+    text-align: left;
+    font-size: var(--body-3-size);
+    color: var(--snow-white);
+    font-family: var(--body-3);
+  }
+
+
+
+
+ 
+  
