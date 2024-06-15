@@ -134,7 +134,7 @@
   .subtitle {
     position: relative;
     letter-spacing: 0.1px;
-    line-height: 20px;
+    line-height: 15px;
   }
   .header-title,
   .layout,
@@ -185,7 +185,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin-right: 10px;
-    background-color: black;
+    /* background-color: black; */
   }
   .trailing {
     margin-bottom: -4px;
@@ -274,7 +274,7 @@
     margin: 0;
     /* color: red; */
     position: relative;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 40px;
     font-weight: 00;
     font-family: inherit;
@@ -305,8 +305,8 @@
     text-align: center;
   }
   .badge-android-icon {
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     position: relative;
     overflow: hidden;
     flex-shrink: 0;
@@ -326,8 +326,8 @@
     font-weight: 600;
   }
   .badge-android-icon1 {
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     position: relative;
     overflow: hidden;
     flex-shrink: 0;
@@ -343,14 +343,14 @@
     flex-wrap: nowrap;
     /* justify-content: center; */
     padding: var(--padding-8xs) 22px;
-    transition: background 0.4s ease;
+    /* transition: background 0.4s ease; */
   }
   .segmented-control-ios {
     border-radius: var(--br-xs);
     background-color: var(--dark-grey);
     flex-wrap: wrap;
     padding: var(--padding-10xs) var(--padding-9xs);
-    row-gap: 20px;
+    row-gap: 15px;
   }
   .balance-0,
   .input1 {
@@ -668,10 +668,9 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    /* overflow: scroll; */
-    /* padding-bottom: 400px; */
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+   
     
 
   }
@@ -686,6 +685,8 @@
     font-size: var(--heading-1-size);
     color: var(--snow-white);
     font-family: var(--heading-1);
+    overflow: scroll;
+    padding-bottom: 200px;
   }
   .status-bar-elements-parent {
     align-items: flex-start;
@@ -731,7 +732,7 @@
     align-self: stretch;
     position: relative;
     letter-spacing: 0.1px;
-    line-height: 20px;
+    line-height: 15px;
     font-weight: 600;
   }
   .badge,
@@ -740,7 +741,7 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    min-width: 20px;
+    min-width: 15px;
   }
   .badge {
     border-radius: var(--br-xl);
@@ -790,7 +791,7 @@
     align-self: stretch;
     position: relative;
     letter-spacing: 0.1px;
-    line-height: 20px;
+    line-height: 15px;
     font-weight: 600;
   }
   .badge-android1,
@@ -799,7 +800,7 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    min-width: 20px;
+    min-width: 15px;
   }
   .badge1 {
     border-radius: var(--br-xl);
@@ -852,7 +853,7 @@
     align-self: stretch;
     position: relative;
     letter-spacing: 0.1px;
-    line-height: 20px;
+    line-height: 15px;
     font-weight: 600;
   }
   .badge-android2,
@@ -861,7 +862,7 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    min-width: 20px;
+    min-width: 15px;
   }
   .badge2 {
     border-radius: var(--br-xl);
@@ -910,7 +911,7 @@
     align-self: stretch;
     position: relative;
     letter-spacing: 0.1px;
-    line-height: 20px;
+    line-height: 15px;
     font-weight: 600;
   }
   .badge-android3,
@@ -919,7 +920,7 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    min-width: 20px;
+    min-width: 15px;
   }
   .badge3 {
     border-radius: var(--br-xl);
@@ -942,7 +943,7 @@
     position: absolute;
     margin: 0 !important;
     top: 0;
-    left: calc(50% - 14px);
+    left: calc(50% - 10px);
     overflow: hidden;
     flex-shrink: 0;
   }
@@ -973,7 +974,7 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    min-width: 20px;
+    min-width: 15px;
   }
   .badge4 {
     border-radius: var(--br-xl);
@@ -1067,7 +1068,7 @@
 }
 header{
   /* padding: auto; */
-  /* margin-top: 20px; */
+  /* margin-top: 15px; */
   position: fixed;
   top: 0;
   /* background-color: black; */
@@ -1078,14 +1079,14 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-left:20px ;
-  /* padding-right: 20px; */
-  margin-right: 20px;
+  padding-left:15px ;
+  /* padding-right: 15px; */
+  margin-right: 15px;
   
 }
 .header2{
   margin-right: 40px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .go3974562317{
@@ -1353,9 +1354,20 @@ header{
 /* portfolio */
 .porfolio-content{
   width: 100%;
-  padding-bottom: 400px;
-  /* border: 1px solid red; */
+  /* padding-bottom: 400px;
   height: 150px;
   overflow: scroll;
-  padding-top: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-top: 15px; */
+}
+.card{
+  overflow: scroll;
+    padding-bottom: 200px;
+    height: 100vh;
+}
+
+header{
+  background-color:black;
+  z-index: 5;
 }
