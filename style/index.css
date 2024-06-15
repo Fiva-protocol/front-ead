@@ -1337,9 +1337,16 @@ header{
   color: var(--snow-white);
   font-family: var(--body-3);
 }
+.edit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
 .edit:hover{
   color: #6161D6;
   cursor: pointer;
+
 
 }
 
