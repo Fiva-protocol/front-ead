@@ -270,32 +270,34 @@
                       <b class="lp">LP</b>
                     </div>
                   </div>
-                  <div class="transaction-cards">
-                    <span class="yt">PT</span>
-                    <div class="text6">
-                      <div class="left4">
-                        <b class="balance2">Balance</b>
-                        <b class="apy">APY</b>
-                      </div>
-                      <div class="right5">
-                        <b class="b5">$0.00</b>
-                        <b class="b6">18.67%</b>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="transaction-cards">
-                    <span class="yt">PT</span>
-                    <div class="text6">
-                      <div class="left4">
-                        <b class="balance2">Balance</b>
-                        <b class="apy">APY</b>
-                      </div>
-                      <div class="right5">
-                        <b class="b5">$0.00</b>
-                        <b class="b6">18.67%</b>
-                      </div>
-                    </div>
-                  </div>
+                  <div id="jetton-wallets-container"></div>
+                  <script src="functions/ts-ton.js"></script>
+<!--                  <div class="transaction-cards">-->
+<!--                    <span class="yt">PT</span>-->
+<!--                    <div class="text6">-->
+<!--                      <div class="left4">-->
+<!--                        <b class="balance2">Balance</b>-->
+<!--                        <b class="apy">APY</b>-->
+<!--                      </div>-->
+<!--                      <div class="right5">-->
+<!--                        <b class="b5">$0.00</b>-->
+<!--                        <b class="b6">18.67%</b>-->
+<!--                      </div>-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                  <div class="transaction-cards">-->
+<!--                    <span class="yt">PT</span>-->
+<!--                    <div class="text6">-->
+<!--                      <div class="left4">-->
+<!--                        <b class="balance2">Balance</b>-->
+<!--                        <b class="apy">APY</b>-->
+<!--                      </div>-->
+<!--                      <div class="right5">-->
+<!--                        <b class="b5">$0.00</b>-->
+<!--                        <b class="b6">18.67%</b>-->
+<!--                      </div>-->
+<!--                    </div>-->
+<!--                  </div>-->
                 </div>
               </section>
             </div>
@@ -456,9 +458,20 @@
     });
   });
 
+  main('0QBMg95LEXNdgwWQOtbHowr56uuIVp5pZjpq3-ncNKk6RPkI').then(data => {
+    if (data) {
+      data.balances.forEach((balance) => {
+        if (isFivaToken(balance.jetton.address)){
+          console.log(balance);
+        }
+      });
+    }
+  });
+
   document.querySelector(".logout").addEventListener("click", function () {
     localStorage.clear();
 
     location.reload();
   });
 </script>
+<!--<script src="functions/ts-ton.js"></script>-->
